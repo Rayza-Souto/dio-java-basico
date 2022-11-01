@@ -12,7 +12,6 @@ public class TiposVariaveis {
 
     short numeroCurto = 1;
     int numeroNormal = numeroCurto;
-    int numeroCurto2 = numeroNormal;
 
     String meuNome = "Rayza Souto";
 
