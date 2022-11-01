@@ -16,7 +16,6 @@ public class TiposVariaveis {
 
     String meuNome = "Rayza Souto";
 
-        
 
     }
 }
