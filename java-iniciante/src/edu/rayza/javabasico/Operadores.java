@@ -1,5 +1,6 @@
 package edu.rayza.javabasico;
 
+
 public class Operadores {
 
     public static void main(String[] args) throws Exception {
@@ -10,11 +11,10 @@ public class Operadores {
         double peso = 90.5;
         char sexo = 'F';
         boolean doadorOrgao = true;
-        Date dataNascimento = new Date();
 
         //Operadores aritmeticos
         double soma = 10.5 + 15.7;
-        int subtração = 113 - 25;
+        int subtracao = 113 - 25;
         int multiplicacao = 20 * 7;
         int divisao = 15 / 3;
         int modulo = 18 % 3;
@@ -64,6 +64,23 @@ public class Operadores {
 
         System.out.println("Inverteu " + !verdadeiro);
 
+
+        boolean condicao1=true;
+
+boolean condicao2=false;
+
+/* Aqui estamos utilizando o operador lógico E para fazer a união de duas 
+expressões. 
+É como se estivesse escrito:
+ "Se Condicao1 e Condicao2 forem verdadeiras, executar código"
+*/
+
+if(condicao1 && condicao2) //E
+	System.out.print("Os dois valores precisam ser verdadeiros");;
+
+//Se condicao1 OU condicao2 for verdadeira, executar código.
+if(condicao1 || condicao2) //OU
+	System.out.print("Um dos valores precisa ser verdadeiro");
     
         
 }
